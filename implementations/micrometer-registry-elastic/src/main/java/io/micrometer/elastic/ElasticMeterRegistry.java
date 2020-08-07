@@ -95,7 +95,7 @@ public class ElasticMeterRegistry extends StepMeterRegistry {
             "  \"index_patterns\": [\"metrics*\"],\n" +
             "  \"mappings\": {\n" +
             "    \"_source\": {\n" +
-            "      \"enabled\": false\n" +
+            "      \"enabled\": true\n" +
             "    },\n" + TEMPLATE_PROPERTIES +
             "  }\n" +
             "}";
